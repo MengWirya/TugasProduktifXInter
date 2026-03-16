@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Course Registration</h2>
+
+<form id="courseForm">
+    <p>
+        <label>Student Name:</label>
+        <input type="text" id="studentName">
+    </p>
+    
+    <p>
+        <label>Course:</label>
+        <input type="radio" name="course" value="Web"> Web Programming
+        <input type="radio" name="course" value="Design"> Graphic Design
+    </p>
+
+    <p>
+        <label>Schedule:</label>
+        <input type="checkbox" class="schedule" value="Mon"> Monday
+        <input type="checkbox" class="schedule" value="Tue"> Tuesday
+        <input type="checkbox" class="schedule" value="Wed"> Wednesday
+        <input type="checkbox" class="schedule" value="Thu"> Thursday
+        <input type="checkbox" class="schedule" value="Fri"> Friday
+        <input type="checkbox" class="schedule" value="Sat"> Saturday
+    </p>
+
+    <button type="submit">Register</button>
+</form>
+
+<p id="output"></p>
+</body>
+<script src="script.js"></script>
+</html>

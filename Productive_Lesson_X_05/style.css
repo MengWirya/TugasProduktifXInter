@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLbExT2mQp0rl-X_6PoLy13E15GSBZXmebw&s');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.big-title {
+    position: relative;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+}
+
+    
+.main-section {
+    background-size: cover;
+    background-color: azure;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+    
+.container {
+    position: relative;
+    width: 550px;
+}
+
+.panel {
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.panel:nth-child(1) { background-image: url(img/HeathCathy01.png); background-size: cover; background-position: center 35%;}
+.panel:nth-child(2) { background-image: url(img/HeathCathy02.png); background-size: cover; background-position: center 15%;}
+.panel:nth-child(3) { background-image: url(img/HeathCathy03.png); background-size: cover; background-position: center top;}
+.panel:nth-child(4) { background-image: url(img/HeathCathy04.png); background-size: cover; background-position: center top 5%;}
+
+.character {
+    position: absolute;
+    bottom: -50px;
+    right: -100px;
+    width: 70%;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 2.5%;
+    position: relative;
+}
+
+.title-block {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.title-logo {
+    width: 95px;
+    flex-shrink: 0;
+}
+
+.vertical-text {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 2.5%;
+    position: absolute;
+    writing-mode: vertical-rl; 
+    text-orientation: mixed;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #753fbd;
+    z-index: 3;
+}

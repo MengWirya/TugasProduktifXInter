@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Registration</h2>
+
+<form id="RegistrationForm">
+    <label>Full Name:</label>
+    <input type="text" id="username">
+    <p id="message1"></p>
+
+    <label>Birth Date:</label>
+    <input type="date" id="birthdate">
+    <p id="message2"></p>
+
+    <p>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+    </p>
+    <p id="message3"></p>
+    
+    <label for="Religion">Religion:</label>
+    <select id="Religion" name="Religion">
+        <option value="" disabled selected hidden>-- Select a Religion --</option>
+        <option value="Muslim">Muslim</option>
+        <option value="Prostestan">Prostestan</option>
+        <option value="Catholic">Catholic</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Budhha">Budhha</option>
+        <option value="KongHuCu">Kong Hu Cu</option>
+    </select>
+    <p id="message4"></p>
+
+    <label>How did you get information about SMK Telkom Malang?</label>
+    <input type="checkbox" class="FindInfo" value="Browser"> Browser
+    <input type="checkbox" class="FindInfo" value="News"> Newspaper
+    <input type="checkbox" class="FindInfo" value="Banner"> Banner
+    <input type="checkbox" class="FindInfo" value="Web"> Website
+    <input type="checkbox" class="FindInfo" value="Friends"> Friends
+    <p id="message5"></p>
+
+    <button type="submit" value="Submit">Submit</button>
+    <input type="reset" value="Reset">
+    <p id="Final_Message"></p>
+</form>
+
+<p id="message"></p>
+<script src="script.js"></script> 
+<link rel="stylesheet" href="style.css">   
+</body>
+</html>
