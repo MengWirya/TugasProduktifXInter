@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        aritaburi: ['Aritaburi', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        @font-face {
+            font-family: 'Aritaburi';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+            font-display: swap;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-fixed bg-cover pt-[70px] pl-[250px] scroll-smooth font-aritaburi text-[#ededed]" style="background-image:url('https://i.namu.wiki/i/oHTCIvGkdMGsppufPVPgjtbYzllAGEN71A1e34v0eBP6APHldXiK9EMmCsECfn7zOmtQJpGezH0gughqzWYdaQ.webp');">
+
+    <div class="fixed inset-x-0 top-0 z-30 flex h-[70px] items-center justify-between bg-[#141414e6] border-b-[3px] border-double border-[#edc382] backdrop-blur-md px-8">
+        <h1 class="text-lg tracking-[1px] font-black text-[#edc382] drop-shadow-[0_0_3px_rgba(237,195,130,1)]">@MengWirya</h1>
+        <div class="flex gap-2">
+            <a href="index.html"><button class="rounded border border-[#8c5b3e] bg-[#5a3b2c] px-5 py-2.5 text-[#ededed]">Overview</button></a>
+            <a href="form.html"><button class="rounded bg-[#8c5b3e] px-5 py-2.5 text-[#ededed]">Profile</button></a>
+        </div>
+    </div>
+
+    <aside class="fixed left-0 top-[70px] z-20 flex h-[calc(100vh-70px)] w-[250px] flex-col items-center bg-[#141414e6] border-r-[3px] border-double border-[#edc382] py-5">
+        <div class="mb-5 h-[120px] w-[120px] rounded-[15px] bg-[url('https://images.steamusercontent.com/ugc/1928123044151851885/CFC7D3FE89A04ECAFECBD104F00E8D2A18A5528D/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false')] bg-cover"></div>
+        <hr class="mb-5 w-1/2 border border-[#ac7441]" />
+        <nav class="w-full px-4 space-y-2">
+            <a href="index.html#lobby" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Lobby</a>
+            <a href="index.html#floor-01" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Floor 01</a>
+            <a href="index.html#floor-02" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Floor 02</a>
+            <a href="index.html#floor-03" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Floor 03</a>
+            <a href="index.html#floor-04" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Invitation Form</a>
+            <a href="form.html" class="block rounded-xl bg-[#2b2418] px-5 py-3 text-[#ededed] no-underline border-l-[4px] border-[#5a3b2c]">Librarian Biodata</a>
+        </nav>
+        <div class="mt-10 h-[120px] w-[120px] rounded-[15px] bg-[url('IMG_File/TailIcon.png')] bg-cover"></div>
+    </aside>
+
+    <main class="flex-1 p-10">
+        <div class="mx-auto max-w-[1200px] rounded-[12px] border-[3px] border-double border-[#edc382] bg-[#141414e6] p-6">
+            <div class="mb-6 border-b border-[#444] pb-3">
+                <h2 class="text-xl font-black text-[#edc382]">Follow my GitHub : MengWirya</h2>
+            </div>
+
+            <h2 id="Biodata" class="mb-6 text-2xl font-black text-[#edc382]">- Our Librarians Biodata -</h2>
+
+            <div class="rounded-[16px] border-[3px] border-double border-[#edc382] bg-[#2b2418] p-6">
+                <div class="mb-8 rounded-[16px] bg-[#141414e6] p-6 shadow-[0_4px_15px_rgba(0,0,0,0.2)]">
+                    <div class="mb-5 rounded-[16px] bg-[#5a3b2c] p-4 text-center">
+                        <h2 class="text-xl font-black text-[#ededed]">Librarian Biodata</h2>
+                    </div>
+                    <div class="flex flex-col gap-6 lg:flex-row lg:items-start">
+                        <div class="h-[220px] w-full rounded-[15px] bg-[url('IMG_File/RolandCombatIdle.png')] bg-cover lg:w-[260px]"></div>
+                        <div class="text-[#ededed]">
+                            <ul class="space-y-2 list-disc pl-5 text-lg">
+                                <li>Name : Orlando Furioso</li>
+                                <li>Place : Outskirt</li>
+                                <li>Birthplace : L Corp</li>
+                                <li>Birthdate : 16th April 1516</li>
+                                <li>Fixer Grade : 9th Grade</li>
+                                <li>Email : lollang@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <h2 class="mb-4 text-xl font-black text-[#edc382]">• Feats</h2>
+                        <div class="grid gap-6 md:grid-cols-2">
+                            <div class="rounded-[16px] bg-[#141414e6] p-6 shadow-[0_4px_15px_rgba(0,0,0,0.2)]">
+                                <h3 class="mb-4 text-lg font-bold text-[#edc382]">Key Feats</h3>
+                                <ul class="space-y-2 list-disc pl-5 text-[#ededed]">
+                                    <li>Color Fixer Level</li>
+                                    <li>Stand one on one with vergillius</li>
+                                    <li>Wiped out an entire section of The Middles</li>
+                                    <li>Defeated Blue Reverbation while exshausted</li>
+                                    <li>Survived a Head and Claw excecution</li>
+                                    <li>FURIOSO</li>
+                                </ul>
+                            </div>
+                            <div class="rounded-[16px] bg-[#141414e6] p-6 shadow-[0_4px_15px_rgba(0,0,0,0.2)]">
+                                <h3 class="mb-4 text-lg font-bold text-[#edc382]">• Jobdesk</h3>
+                                <ul class="space-y-2 list-disc pl-5 text-[#ededed]">
+                                    <li>Managing the Keter Floor</li>
+                                    <li>Managers of The Library</li>
+                                    <li>Guiding visitor around the library</li>
+                                    <li>Cleaned up all the mess inside the library</li>
+                                    <li>Keeping The Library safe from the Head raids</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

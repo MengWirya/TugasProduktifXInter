@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Larp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        aritaburi: ['Aritaburi', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        @font-face {
+            font-family: 'Aritaburi';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+            font-display: swap;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-fixed bg-cover pt-[70px] pl-[250px] scroll-smooth font-aritaburi text-[#ededed]" style="background-image:url('https://i.namu.wiki/i/oHTCIvGkdMGsppufPVPgjtbYzllAGEN71A1e34v0eBP6APHldXiK9EMmCsECfn7zOmtQJpGezH0gughqzWYdaQ.webp');">
+
+<div class="fixed inset-x-0 top-0 z-30 flex h-[70px] items-center justify-between bg-[#141414e6] border-b-[3px] border-double border-[#edc382] backdrop-blur-md px-8">
+    <h1 class="text-lg tracking-[1px] font-black text-[#edc382] drop-shadow-[0_0_3px_rgba(237,195,130,1)]">@MengWirya</h1>
+    <div class="flex gap-2">
+        <a href="index.html"><button class="rounded px-5 py-2.5 bg-[#8c5b3e] text-[#ededed]">Overview</button></a>
+        <a href="form.html"><button class="rounded border border-[#8c5b3e] bg-[#5a3b2c] px-5 py-2.5 text-[#ededed]">Profile</button></a>
+    </div>
+</div>
+
+<aside class="fixed left-0 top-[70px] z-20 flex h-[calc(100vh-70px)] w-[250px] flex-col items-center bg-[#141414e6] border-r-[3px] border-double border-[#edc382] py-5">
+    <div class="mb-5 h-[120px] w-[120px] rounded-[15px] bg-[url('https://images.steamusercontent.com/ugc/1928123044151851885/CFC7D3FE89A04ECAFECBD104F00E8D2A18A5528D/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false')] bg-cover"></div>
+    <hr class="mb-5 w-1/2 border border-[#ac7441]">
+    <nav class="w-full px-4">
+        <a href="#lobby" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Lobby</a>
+        <a href="#floor-01" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Floor 01</a>
+        <a href="#floor-02" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Floor 02</a>
+        <a href="#floor-03" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Floor 03</a>
+        <a href="#floor-04" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Invitation Form</a>
+        <a href="form.html#Biodata" class="block rounded-xl px-5 py-3 text-[#ededed] no-underline transition hover:bg-[#2b2418] hover:border-l-[4px] hover:border-[#5a3b2c]">Librarian Biodata</a>
+    </nav>
+    <div class="mt-10 h-[120px] w-[120px] rounded-[15px] bg-[url('IMG_File/TailIcon.png')] bg-cover"></div>
+</aside>
+
+<main id="lobby" class="flex-1 p-10">
+    <div class="mx-auto max-w-[1200px] rounded-[12px] border-[3px] border-double border-[#edc382] bg-[#141414e6] p-6">
+        <div class="mb-6 border-b border-[#444] pb-3">
+            <h2 class="text-xl font-black text-[#edc382]">Follow my GitHub : MengWirya</h2>
+        </div>
+
+        <div class="mb-10 flex flex-col items-center text-center">
+            <div class="mb-6 flex items-center justify-center gap-5">
+                <div class="h-[150px] w-[150px] rounded-xl border border-[#edc382] bg-[url('https://i.pinimg.com/736x/a0/dc/52/a0dc52e567525d880997ac8b8c8f7613.jpg')] bg-cover"></div>
+                <h1 class="text-3xl font-black text-[#edc382]" style="text-shadow:0 0 3px #edc382;">Welcome to the library!</h1>
+                <div class="h-[150px] w-[150px] rounded-xl border border-[#edc382] bg-[url('https://i.pinimg.com/736x/ed/d1/c9/edd1c93d3aa6a88729b860ddc55d3d60.jpg')] bg-cover"></div>
+            </div>
+            <p class="max-w-[860px] leading-8 text-[#ededed]">
+                Welcome dear guest, to the City biggest library, Library of Ruina!
+                <br>
+                Here, we provide countless books with each of them capable providing all the wisdom, wealth, honor, and power you seek.
+                <br>
+                However, one should not disturb the peace that we offered. Our librarian here is not to be messed up.
+                <br><br>
+                While you may read the books directly, such behavior is not suggested. Any 'scene' happening from that is not our responsibilities.
+                <br>
+                Please feel free to contribute by asking our assistant here, all contribution will be remember deeply forever...
+                <br>
+                We hope you enjoyed your experienced reading here, if possible we wish you share our 'Invitation' to peoples around the City.
+            </p>
+            <img src="IMG_File/text-underline.webp" class="mt-6 w-64" alt="underline">
+        </div>
+
+        <div class="mb-10 rounded-[12px] border-[3px] border-double border-[#edc382] p-5">
+            <div class="mb-4 border-b border-[#444] pb-3">
+                <h2 class="text-xl font-black text-[#edc382]">IMPORTANT ANNOUNCEMENT!!!</h2>
+            </div>
+            <div class="float-left mr-5 mb-4 h-[150px] w-[125px] rounded-[15px] bg-[url('IMG_File/RolandCombatIdle.png')] bg-cover"></div>
+            <div class="ml-[155px] text-[#ededed]">
+                <p>
+                    Hello World!!! <br> Website ini merupakan bentuk dari pelaksanaan tugas frontend CSS dengan Bu Lyra, Pemilihan Tema berupa Library of Ruina dikarenakan saya sangat menyukai game tersebut sehingga saya ingin membuat fan page game tersebut dengan format sesuai dengan yang ditugaskan bu lyra.
+                    <br> Setiap Floor disini menunjukkan soal studi case dengan soal nomor 4 terletak pada tab "Invitation", asset yang ada di web ini saya ambil dari wiki dan dari pinterest.
+                </p>
+            </div>
+            <div class="clear-both"></div>
+        </div>
+
+        <h2 id="floor-01" class="mb-4 text-2xl font-black text-[#edc382]">- Our Librarians Poems -</h2>
+        <section class="mb-10 rounded-[30px] border-[3px] border-double border-[#edc382] bg-[#2b2418] p-8 shadow-[0_4px_15px_rgba(0,0,0,0.2)]">
+            <div class="mb-6 flex flex-col gap-6 text-[#edc382]">
+                <div class="flex flex-col gap-3">
+                    <h1 class="text-3xl font-black leading-tight">Prayer For A<br>Loving Sorrow</h1>
+                    <h3 class="text-xl font-semibold">- By. Roland</h3>
+                </div>
+            </div>
+            <div class="text-[#ededed] leading-8">
+                <p>
+                    I have nothing but my sorrow… And I want nothing more. It has been, it still is, faithful to me.
+                    <br>
+                    should I begrudge it, since during the hours when my soul crushed the depths of my heart, it was seated there beside me?
+                    <br>
+                    sorrow, I have ended, you see, by respecting you, because I am certain you will never leave me.
+                    <br>
+                    Ah, I realize it! Your beauty lies in the force of your being. You are like those who never left the sad fireside corner of my poor black heart.
+                    <br>
+                    O my sorrow, you are better than a well-beloved: because I know that on the day of my final agony, you will be there, lying in my sheets. O sorrow. So that you might once again attempt to enter my heart.
+                </p>
+            </div>
+        </section>
+
+        <h2 id="floor-02" class="mb-4 text-2xl font-black text-[#edc382]">- Library Content List -</h2>
+        <div class="mb-10 overflow-x-auto rounded-[12px] border-[3px] border-double border-[#edc382] bg-[#141414e6] p-4">
+            <table class="w-full border-collapse border border-[#edc382] bg-[#1a1a1a] text-left">
+                <thead class="bg-[#5a3b2c] text-[#edc382]">
+                    <tr>
+                        <th class="border-b border-[#edc382] px-4 py-3" rowspan="2">NO</th>
+                        <th class="border-b border-[#edc382] px-4 py-3" colspan="3">Detail Kamar</th>
+                        <th class="border-b border-[#edc382] px-4 py-3" rowspan="2">Kategori</th>
+                        <th class="border-b border-[#edc382] px-4 py-3" rowspan="2">Gambar</th>
+                    </tr>
+                    <tr>
+                        <th class="border-b border-[#edc382] px-4 py-3">Nomor Kamar</th>
+                        <th class="border-b border-[#edc382] px-4 py-3">Lantai</th>
+                        <th class="border-b border-[#edc382] px-4 py-3">Fasilitas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-[#333] hover:bg-[#2b2418] transition-all duration-300">
+                        <td class="px-4 py-3">1</td>
+                        <td class="px-4 py-3">A01</td>
+                        <td class="px-4 py-3">1</td>
+                        <td class="px-4 py-3 text-left">
+                            <ul class="list-disc pl-5">
+                                <li>AC</li>
+                                <li>Kolam Renang</li>
+                                <li>Wi-Fi</li>
+                                <li>Laundry</li>
+                                <li>Restoran</li>
+                                <li>Gym</li>
+                            </ul>
+                        </td>
+                        <td class="px-4 py-3">Deluxe</td>
+                        <td class="px-4 py-3">
+                            <div class="h-[100px] w-[140px] overflow-hidden rounded-[12px] bg-[#1f1a13]">
+                                <img class="h-full w-full object-cover" src="https://i.pinimg.com/736x/48/fe/00/48fe0099d8349dcff77030494b7b2503.jpg" alt="Room image">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="border-b border-[#333] hover:bg-[#2b2418] transition-all duration-300">
+                        <td class="px-4 py-3">2</td>
+                        <td class="px-4 py-3">A02</td>
+                        <td class="px-4 py-3">2</td>
+                        <td class="px-4 py-3 text-left">
+                            <ul class="list-disc pl-5">
+                                <li>Wi-Fi</li>
+                                <li>Laundry</li>
+                                <li>Restoran</li>
+                            </ul>
+                        </td>
+                        <td class="px-4 py-3">Standard</td>
+                        <td class="px-4 py-3">
+                            <div class="h-[100px] w-[140px] overflow-hidden rounded-[12px] bg-[#1f1a13]">
+                                <img class="h-full w-full object-cover" src="https://i.pinimg.com/736x/85/f0/dc/85f0dce48d742d949632e40d3aae002c.jpg" alt="Room image">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="border-b border-[#333] hover:bg-[#2b2418] transition-all duration-300">
+                        <td class="px-4 py-3">3</td>
+                        <td class="px-4 py-3">B01</td>
+                        <td class="px-4 py-3">3</td>
+                        <td class="px-4 py-3 text-left">
+                            <ul class="list-disc pl-5">
+                                <li>AC</li>
+                                <li>Wi-Fi</li>
+                                <li>Gym</li>
+                            </ul>
+                        </td>
+                        <td class="px-4 py-3">Economy</td>
+                        <td class="px-4 py-3">
+                            <div class="h-[100px] w-[140px] overflow-hidden rounded-[12px] bg-[#1f1a13]">
+                                <img class="h-full w-full object-cover" src="https://i.pinimg.com/1200x/18/c4/7a/18c47a28a670f8e607cba16c44660f6e.jpg" alt="Room image">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="border-b border-[#333] hover:bg-[#2b2418] transition-all duration-300">
+                        <td class="px-4 py-3">4</td>
+                        <td class="px-4 py-3">B02</td>
+                        <td class="px-4 py-3">4</td>
+                        <td class="px-4 py-3 text-left">
+                            <ul class="list-disc pl-5">
+                                <li>Kolam Renang</li>
+                                <li>Laundry</li>
+                            </ul>
+                        </td>
+                        <td class="px-4 py-3">Deluxe</td>
+                        <td class="px-4 py-3">
+                            <div class="h-[100px] w-[140px] overflow-hidden rounded-[12px] bg-[#1f1a13]">
+                                <img class="h-full w-full object-cover" src="https://i.pinimg.com/736x/95/dd/b9/95ddb93726c5d5c785e071fd40ca5a33.jpg" alt="Room image">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="hover:bg-[#2b2418] transition-all duration-300">
+                        <td class="px-4 py-3">5</td>
+                        <td class="px-4 py-3">C01</td>
+                        <td class="px-4 py-3">5</td>
+                        <td class="px-4 py-3 text-left">
+                            <ul class="list-disc pl-5">
+                                <li>AC</li>
+                                <li>Wi-Fi</li>
+                                <li>Restoran</li>
+                                <li>Gym</li>
+                            </ul>
+                        </td>
+                        <td class="px-4 py-3">Premium</td>
+                        <td class="px-4 py-3">
+                            <div class="h-[100px] w-[140px] overflow-hidden rounded-[12px] bg-[#1f1a13]">
+                                <img class="h-full w-full object-cover" src="https://i.pinimg.com/736x/55/42/f9/5542f9dc16787e53c608a0fb76a03b65.jpg" alt="Room image">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 id="floor-03" class="mb-4 text-2xl font-black text-[#edc382]">- Gallery Of Memories -</h2>
+        <div class="mb-10 rounded-[12px] border-[3px] border-double border-[#edc382] bg-[#141414e6] p-5">
+            <div class="grid grid-cols-4 grid-rows-[repeat(3,180px)] gap-4">
+                <div class="relative col-span-2 row-span-2 overflow-hidden rounded-xl cursor-pointer">
+                    <img class="h-full w-full object-cover transition duration-300 ease-out hover:scale-105 hover:brightness-100 brightness-[0.75]" src="https://i.pinimg.com/736x/50/22/f6/5022f64947c20b8e88650ae7f0b43a33.jpg" alt="Danteh">
+                    <div class="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-2xl font-black text-[#edc382]">Danteh...</div>
+                </div>
+                <div class="relative overflow-hidden rounded-xl cursor-pointer">
+                    <img class="h-full w-full object-cover transition duration-300 ease-out hover:scale-105 hover:brightness-100 brightness-[0.75]" src="https://i.pinimg.com/736x/7a/f1/ce/7af1ceafcfac4c0ea1c4d524224c68ab.jpg" alt="Larp Quartet">
+                    <div class="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-2xl font-black text-[#edc382]">Larp Quartet</div>
+                </div>
+                <div class="relative overflow-hidden rounded-xl cursor-pointer">
+                    <img class="h-full w-full object-cover transition duration-300 ease-out hover:scale-105 hover:brightness-100 brightness-[0.75]" src="https://i.pinimg.com/736x/56/13/c4/5613c434061cdf8ba1ef423b0080e1c2.jpg" alt="Scicorring">
+                    <div class="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-2xl font-black text-[#edc382]">Scicorring</div>
+                </div>
+                <div class="relative col-span-2 row-span-2 overflow-hidden rounded-xl cursor-pointer col-start-3 row-start-2">
+                    <img class="h-full w-full object-cover transition duration-300 ease-out hover:scale-105 hover:brightness-100 brightness-[0.75]" src="https://i.pinimg.com/736x/d0/7e/ef/d07eef130a8058ecb6ba511c1fd8f935.jpg" alt="YMF-TCTB">
+                    <div class="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-2xl font-black text-[#edc382]">YMF-TCTB</div>
+                </div>
+                <div class="relative col-start-1 row-start-3 overflow-hidden rounded-xl cursor-pointer">
+                    <img class="h-full w-full object-cover transition duration-300 ease-out hover:scale-105 hover:brightness-100 brightness-[0.75]" src="https://i.pinimg.com/736x/50/1d/eb/501deb40534d863c26952cea1c1e771f.jpg" alt="Ira Woman">
+                    <div class="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-2xl font-black text-[#edc382]">Ira Woman</div>
+                </div>
+                <div class="relative col-start-2 row-start-3 overflow-hidden rounded-xl cursor-pointer">
+                    <img class="h-full w-full object-cover transition duration-300 ease-out hover:scale-105 hover:brightness-100 brightness-[0.75]" src="https://i.pinimg.com/736x/4b/6c/4a/4b6c4a25bcb928486e1c091c536bfb84.jpg" alt="Morositas Guy">
+                    <div class="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-2xl font-black text-[#edc382]">Morositas Guy</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="floor-04" class="mb-10">
+            <div class="mx-auto max-w-[960px] text-center px-4">
+                <h1 class="mb-4 text-4xl font-black text-[#edc382]">- You Have Been Invited -</h1>
+                <p class="mb-8 text-xl text-[#f3e7c1]">Fill this form and we will transport you to the library as soon as possible</p>
+
+                <form id="contactForm" class="mx-auto mb-6 max-w-[700px] rounded-[16px] border-[3px] border-double border-[#edc382] bg-[#141414e6] p-6">
+                    <div class="mb-6 text-left">
+                        <label for="name" class="mb-2 block text-[#edc382] font-bold">Full Name</label>
+                        <input type="text" id="name" name="name" required class="w-full rounded-[16px] border border-[#5a3b2c] bg-[#1f1a13] px-4 py-4 text-[#f3e7c1] outline-none transition focus:border-[#edc382] focus:ring-4 focus:ring-[#edc382]/20" placeholder="Hometown Name won't work here...">
+                    </div>
+                    <div class="mb-6 text-left">
+                        <label for="email" class="mb-2 block text-[#edc382] font-bold">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full rounded-[16px] border border-[#5a3b2c] bg-[#1f1a13] px-4 py-4 text-[#f3e7c1] outline-none transition focus:border-[#edc382] focus:ring-4 focus:ring-[#edc382]/20" placeholder="YourName@Gmail.com">
+                    </div>
+                    <div class="mb-6 text-left">
+                        <label for="message" class="mb-2 block text-[#edc382] font-bold">Reason to visit the Library</label>
+                        <textarea id="message" name="message" rows="4" class="w-full resize-y rounded-[16px] border border-[#5a3b2c] bg-[#1f1a13] px-4 py-4 text-[#f3e7c1] outline-none transition focus:border-[#edc382] focus:ring-4 focus:ring-[#edc382]/20" placeholder="Please explain to us as detailed as possible!"></textarea>
+                    </div>
+                    <button type="submit" class="w-full rounded-[16px] bg-[#edc382] px-6 py-4 font-black text-[#141414] transition hover:bg-[#d9b76e]">Selesai</button>
+                </form>
+                <img src="IMG_File/text-underline.webp" class="mx-auto w-64" alt="underline">
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
